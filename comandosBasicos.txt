@@ -20,9 +20,11 @@ git log --oneline
 git log -1 muestra historial de un commit 
 git log -3 muestra historial de tres commits
 
-
-
-
 -----------------------------------------------------------
+UNDOING THINGS
 Despues de un commit ya hecho puedo modificar los cambios y poner git add *
 y luego git commit --amend para cambiar el commit anteriormente hecho con los cambios.
+------------------------------------------------------------
+UNSTAGING FILES
+
+------------------------------------------------------------
