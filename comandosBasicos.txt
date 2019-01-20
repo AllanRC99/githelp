@@ -2,6 +2,7 @@ git init
 git config [--global] user.name "Allan Corinaldi"
 git config [--global] user.email "ar.corinaldi@uniandes.edu.co"
 
+HEAD^ es el anterior commit al head
 
 git commit --amend -> (Para cambiar el editor cuando se usa --amend, git config core.editor "notepad --wait")
 
@@ -26,5 +27,9 @@ Despues de un commit ya hecho puedo modificar los cambios y poner git add *
 y luego git commit --amend para cambiar el commit anteriormente hecho con los cambios.
 ------------------------------------------------------------
 UNSTAGING FILES
+git reset HEAD <FILE>
 
+Si quiero descartar los cambios hechos en un archivo: git checkout -- <FILE>
+
+Para reiniciar todos los archivos al commit anterior: git reset HEAD --hard
 ------------------------------------------------------------
