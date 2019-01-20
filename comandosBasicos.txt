@@ -1,0 +1,14 @@
+git init 
+git config [--global] user.name "Allan Corinaldi"
+git config [--global] user.email "ar.corinaldi@uniandes.edu.co"
+
+
+git commit --amend 
+
+git mv <FILE>
+git rm <FILE>
+
+Archivos escritos en .gitignored seran ignorados y no tomados en cuenta en untracked ni tracked files
+*.java ningun archivo java sera tomado en cuenta.
+
+git log -1 muestra historial de un commit 
