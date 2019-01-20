@@ -5,7 +5,8 @@ git config [--global] user.email "ar.corinaldi@uniandes.edu.co"
 
 git commit --amend -> (Para cambiar el editor cuando se usa --amend, git config core.editor "notepad --wait")
 
-git diff [--staged]
+git diff [HEAD o HEAD^]
+git diff B1231..T2354
 
 
 git mv <FILE>
@@ -21,3 +22,7 @@ git log -3 muestra historial de tres commits
 
 
 
+
+-----------------------------------------------------------
+Despues de un commit ya hecho puedo modificar los cambios y poner git add *
+y luego git commit --amend para cambiar el commit anteriormente hecho con los cambios.
