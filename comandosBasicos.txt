@@ -16,8 +16,6 @@ git rm <FILE>
 Archivos escritos en .gitignored seran ignorados y no tomados en cuenta en untracked ni tracked files
 *.java ningun archivo java sera tomado en cuenta.
 
-git log --oneline
-
 git log -1 muestra historial de un commit 
 git log -3 muestra historial de tres commits
 
@@ -31,5 +29,14 @@ git reset HEAD <FILE>
 
 Si quiero descartar los cambios hechos en un archivo: git checkout -- <FILE>
 
-Para reiniciar todos los archivos al commit anterior: git reset HEAD --hard
+
+Para ver los HASH usar: git log --oneline
+
+Devuelve los cambios al commit que yo quiera: git reset HEAD/HASH --hard
+------------------------------------------------------------
+BRANCHING
+Para crear la rama: git branch <NOMBRE DE LA RAMA> 
+Para cambiar la referencia del HEAD: git checkout <NOMBRE DE LA RAMA>
+Para eliminar rama: git branch -d <NOMBRE DE LA RAMA>
+Crear la rama y poner la referencia de HEAD de una: git checkout -b <NOMBRE DE LA RAMA>
 ------------------------------------------------------------
