@@ -35,8 +35,14 @@ Para ver los HASH usar: git log --oneline
 Devuelve los cambios al commit que yo quiera: git reset HEAD/HASH --hard
 ------------------------------------------------------------
 BRANCHING
+Para ver las ramas creadas: git branch
 Para crear la rama: git branch <NOMBRE DE LA RAMA> 
 Para cambiar la referencia del HEAD: git checkout <NOMBRE DE LA RAMA>
 Para eliminar rama: git branch -d <NOMBRE DE LA RAMA>
 Crear la rama y poner la referencia de HEAD de una: git checkout -b <NOMBRE DE LA RAMA>
+------------------------------------------------------------
+TAG
+Para ver los tags: git tag
+Para crear tags: git tag <NOMBRE TAG>
+Para ir al tag: git checkout <NOMBRE TAG>
 ------------------------------------------------------------
